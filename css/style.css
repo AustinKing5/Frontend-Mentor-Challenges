@@ -6,7 +6,7 @@ body {
 
 .container {
   background-color: white;
-    border-radius: 8px;
+  border-radius: 8px;
   height: 450px;
   position: relative;
   margin: 100px auto;
@@ -23,17 +23,17 @@ body {
 
 }**/
 h3 {
-    color: hsl(158, 36%, 37%);
+  color: hsl(158, 36%, 37%);
   display: inline-block;
-font-size: 30px;
-font-family: 'Fraunces', serif;
+  font-size: 30px;
+  font-family: 'Fraunces', serif;
   position: absolute;
   top: 290px;
-left: 330px;
+  left: 330px;
   font-weight: 500;
 }
 
-h2 {
+h1 {
   color: hsl(228, 12%, 48%);
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -41,13 +41,12 @@ h2 {
   position: absolute;
   top: 30px;
   left: 330px;
-
 }
 
-h1 {
+h2 {
   font-family: 'Fraunces', serif;
   font-size: 30px;
-  font-weight: 700                    ;
+  font-weight: 700;
   display: inline-block;
   position: absolute;
   top: 69.62px;
@@ -65,8 +64,6 @@ h1 {
   position: absolute;
   top: 193px;
   left: 330px;
-
-  /**word-spacing: 0.4rem;**/
 }
 
 .p-2 {
@@ -77,15 +74,15 @@ h1 {
   position: absolute;
   text-decoration: line-through;
   top: 316px;
-left: 465px;
+  left: 465px;
 }
 
 .cart {
   display: inline-block;
   position: relative;
 }
-.cart-icon{
 
+.cart-icon {
   position: absolute;
   left: 395px;
   bottom: 42px;
@@ -97,7 +94,7 @@ left: 465px;
   background-image: -moz-linear-gradient(top, #3D8168, #4A8D74);
   background-image: -ms-linear-gradient(top, #3D8168, #4A8D74);
   background-image: -o-linear-gradient(top, #3D8168, #4A8D74);
-  background-image: linear-gradient(to bottom, #3D8168,#4A8D74);
+  background-image: linear-gradient(to bottom, #3D8168, #4A8D74);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
@@ -115,11 +112,10 @@ left: 465px;
   height: 18px;
 }
 
-
 .btn:hover {
   background: #1A4031;
   background-image: -webkit-linear-gradient(top, #1A4031, #2A624D);
-  background-image: -moz-linear-gradient(top,#1A4031, #2A624D);
+  background-image: -moz-linear-gradient(top, #1A4031, #2A624D);
   background-image: -ms-linear-gradient(top, #1A4031, #2A624D);
   background-image: -o-linear-gradient(top, #1A4031, #2A624D);
   background-image: linear-gradient(to bottom, #1A4031, #2A624D);
